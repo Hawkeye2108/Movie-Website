@@ -1,0 +1,30 @@
+.search{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+.search h2{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.error-text{
+    color: rgb(221, 44, 44);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+input{
+    width: 190px;
+    height: 2.2rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 6px auto;
+
+}

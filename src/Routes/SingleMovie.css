@@ -1,0 +1,66 @@
+.single-movie-page{
+    background-color: rgb(19, 168, 168);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-movie-card{
+    background-color: rgb(234, 234, 234);
+    border: 1px solid black;
+    width: 70rem;
+    min-height: 40rem;
+    border-radius: 1rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    font-size: 2.5rem;
+    color: white;
+}
+.single-movie-card img{
+    height: 35rem;
+    width: 40rem;
+    margin: 1.3rem;
+}
+.single-movie-card .card-info{
+display: flex;
+flex-direction: column;
+}
+
+.single-movie-card button{
+    height: 4rem;
+    width: 8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.single-movie-card button:hover{
+    background-color: rgb(195, 195, 195);
+
+}
+.single-movie-card .card-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.4rem;
+}
+.single-movie-card .card-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.4rem;
+}
+@media screen and (max-width:780px){
+    .single-movie-card{
+        flex-direction: column;
+        width: 30rem;
+    }
+    .single-movie-card img{
+        height: 35rem;
+        width: 25rem;
+        margin: 1.3rem;
+    }
+    .single-movie-card button{
+        margin-left: 1rem;
+    }
+}
